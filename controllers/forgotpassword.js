@@ -32,6 +32,7 @@ exports.forgotpassword= async(req,res,next)=>{
                     subject: 'Reset Password',
                     text: 'Forgot Password Do Not Worry Click below  ',
                     html: `<a href="http://52.90.35.31:22/password/resetpassword/${id}">Reset password</a>`,
+                    
                 }
     
                 sgMail
